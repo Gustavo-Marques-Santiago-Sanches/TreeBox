@@ -1,0 +1,105 @@
+body{
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*Estilização do header da pagina*/
+header{
+    background-color: pink;
+}
+
+/*Estilização do LOGOTIPO*/
+.logo{
+    width: 25%;
+}
+
+/*Estilização do menu*/
+nav{
+    margin-right: -500;
+    right: 0;
+    position: absolute;
+    top: 55px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.logo_caixa{
+    width: 50%;
+    position: relative;
+    margin: 0 0 0 180;
+}
+
+/*Estilização do Main*/
+h1{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1:before{
+    content: "🏡";
+}
+
+p{
+    text-align: center;
+    /*font-weight: bold;*/
+}
+
+.casas{
+    width: 100%;
+    border: 0;
+}
+
+.casa1{
+    border: 10px;
+    border-color: pink;
+    border-radius: 10%;
+}
+
+.casa2{
+    border: 10px;
+    border-color: pink;
+    border-radius: 10%;
+}
+
+.casa3{
+    border: 10px;
+    border-color: pink;
+    border-radius: 10%;
+    margin: 10%;
+}
+/*Estilização do Footer*/
+.footer{
+    text-align: center;
+    padding: 10px 0px 5px 0px;
+    background-color: rgb(141, 141, 141);
+    margin: 0;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 0;
+}
+
+.logo_footer{
+    width: 10%;
+}
