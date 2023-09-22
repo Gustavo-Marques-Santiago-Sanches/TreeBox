@@ -48,10 +48,14 @@ nav a:hover{
 }
 
 /*Estilização do Main*/
+section{
+    width: 100%;
+}
 h1{
     color: red;
     text-align: center;
     font-weight: bold;
+    margin: 10px;
 }
 
 h1:before{
@@ -60,32 +64,32 @@ h1:before{
 
 p{
     text-align: center;
-    /*font-weight: bold;*/
+    margin: 0;
 }
 
 .casas{
     width: 100%;
-    border: 0;
+    text-align: center;
 }
 
-.casa1{
-    border: 10px;
-    border-color: pink;
-    border-radius: 10%;
+.casa{
+    width: 20%;
+    height: 50%;
+    display: inline-block;
+    border: 6px solid pink;
+    border-radius: 12%;
+    margin: 2% 3% 2% 3%;
 }
 
-.casa2{
-    border: 10px;
-    border-color: pink;
-    border-radius: 10%;
+h2{
+    text-align: center;
+    margin: 5%;
 }
 
-.casa3{
-    border: 10px;
-    border-color: pink;
-    border-radius: 10%;
-    margin: 10%;
+.img_arv{
+    width: 65%;
 }
+
 /*Estilização do Footer*/
 .footer{
     text-align: center;
