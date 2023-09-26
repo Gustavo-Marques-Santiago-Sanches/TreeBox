@@ -50,6 +50,9 @@ nav a:hover{
 /*Estilização do Main*/
 section{
     width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 h1{
     color: red;
@@ -78,7 +81,7 @@ p{
     display: inline-block;
     border: 6px solid pink;
     border-radius: 12%;
-    margin: 2% 3% 2% 3%;
+    margin: 3% 3% 3.4% 3%;
 }
 
 h2{
