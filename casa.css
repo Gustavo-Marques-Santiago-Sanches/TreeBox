@@ -73,7 +73,7 @@ p{
 
 .casas{
     width: 100%;
-    text-align: center;
+    text-align: center; 
 }
 
 .casa{
@@ -90,7 +90,7 @@ p{
 .casa:hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-    color: rgb(211, 158, 166);
+    border-color: rgb(211, 158, 166);
  }
 
 .carac{
