@@ -12,19 +12,20 @@ header{
 
 /*Estilização do LOGOTIPO*/
 .logo{
-    width: 25%;
+    width: 14%;
 }
 
 /*Estilização do menu*/
 nav{
-    margin-right: -500;
+    margin: 0;
+    padding: 0 16% 0 0;
     right: 0;
     position: absolute;
-    top: 55px;
+    top: 35%;
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
     margin: 0 0 0 15px;
 }
 
@@ -32,7 +33,7 @@ nav a{
     text-transform: uppercase;
     color: black;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
     text-decoration: none;
 }
 
@@ -42,9 +43,9 @@ nav a:hover{
 }
 
 .logo_caixa{
-    width: 50%;
+    width: 100%;
     position: relative;
-    margin: 0 0 0 180;
+    margin: 0 0 0 5%;
 }
 
 /*Estilização do Main*/
@@ -93,8 +94,9 @@ p{
 
 .carac{
     padding: 0;
-    margin: 0 0 0 23px;
+    margin: 0 0 0 6%;
     display: table;
+    position: flex;
     line-height: 2.2;
 }
 
