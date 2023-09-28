@@ -113,6 +113,12 @@ h2{
     width: 65%;
 }
 
+.price{
+    padding: 6% 0 0 0;
+    font-weight: bold;
+    font-size: 26px;
+}
+
 /*Estilização do Footer*/
 .footer{
     text-align: center;
