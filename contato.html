@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>TreeBox</title>
+        <link rel="stylesheet" href="contato.css">
+        <link rel="shortcut icon" href="assets/imagens/Logo3_Arvore.png">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo_caixa">
+                <img src="assets/imagens/Logo3-removebg-preview.png" title="TreeBox" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="casas.html">Casas</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <form name ="frmContato" method="get" action="mailto:teste@gmail.com" target="_blank">
+                <fieldset>
+                    <br>
+                    <legend>Dados Pessoais</legend>
+                    <label for="nomesobrenome">* Nome e Sobrenome</label>
+                    <input type="text" name="" id="nomesobrenome" class="inp" required ="">
+
+                    <label for="email">* Email</label>
+                    <input type="email" name="" id="email" class="inp" required placeholder="seuemail@donio.com">
+
+                    <label for="tele">Telefone</label>
+                    <input type="tel" name="" id="tele" class="inp" placeholder ="(XX) XXXXX-XXXX">
+
+                    <label for="mensagem">* Mensagem</label>
+                    <textarea cols="70" rows="10" id="mensagem" class="inp" required =""></textarea>
+
+                    <label for="contato" id="cont">Como prefere o seu contato?
+                        <input type="radio" value="radio mail" name="cont"> Email
+                        <input type="radio" value="radio telefone" name="cont"> Telefone
+                        <input type="radio" value="radio Whatsapp" name="cont"> Whatsapp
+                    </label>
+
+                    <label for="motivo" id="mot">Qual o motivo do seu contato?
+                        <select>
+                            <option>Selecione</option>
+                            <option>Dúvida</option>
+                            <option>Sugestão</option>
+                            <option>Elogio</option>
+                            <option>Reclamação</option>
+                        </select>
+                    </label>
+                    <br>
+                </fieldset>
+
+                <label><input type="checkbox" class="chk"> Gostaria de receber nossas novidades?</label>
+
+                <input id="bot" type="submit" value="Enviar formulário" class="enviar">
+            </form>
+        </main>
+
+        <!--Rodapé-->
+        <footer class="footer">
+            <img src="./assets/imagens/Logo3-removebg-preview.png" alt="TreeBox" class="logo_footer">
+            <p class="copyright">&copy; Copyright - Todos os direitos reservados para TreeBox</p>
+        </footer>
+    </body>
+</html>
