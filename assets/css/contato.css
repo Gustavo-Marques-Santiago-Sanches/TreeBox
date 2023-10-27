@@ -1,0 +1,117 @@
+body{
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*Estilização do header da pagina*/
+header{
+    background-color: pink;
+}
+
+/*Estilização do LOGOTIPO*/
+.logo{
+    width: 14%;
+    padding-left: 16%;
+}
+
+/*Estilização do menu*/
+nav{
+    margin: 0;
+    padding: 0 16% 0 0;
+    right: 0;
+    position: absolute;
+    top: 35%;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.logo_caixa{
+    width: 100%;
+    position: relative;
+}
+
+/*Estilização do Contato*/
+p{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 1%;
+}
+
+form{
+    width: 100%;
+    margin-left: 25%;
+}
+
+fieldset{
+    width: 50%;
+    height: 80%;
+    margin-top: 1%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    border-radius: 1%;
+    padding-left: 2%;
+    height: 54%;
+    border: 2px solid pink;
+}
+
+legend{
+    font-weight: bold;
+}
+
+label{
+    display: flex;
+    font-weight: bold;
+}
+
+.inp{
+    margin-bottom: 2.5%;
+    width: 95%;
+}
+
+textarea{
+    margin-bottom: 2.5%;
+}
+
+.enviar{
+    margin-top: 1%;
+}
+
+.mot{
+    padding-top: 2.5%;
+}
+
+/*Estilização do Footer*/
+.footer{
+    text-align: center;
+    padding: 10px 0px 5px 0px;
+    background-color: rgb(141, 141, 141);
+    margin: 0;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 0;
+}
+
+.logo_footer{
+    width: 10%;
+}

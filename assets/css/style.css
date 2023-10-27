@@ -1,0 +1,160 @@
+/*Estilização geral do site*/
+body{
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*Estilização do header da pagina*/
+header{
+    background-color: pink;
+}
+
+/*Estilização do LOGOTIPO*/
+.logo{
+    width: 14%;
+    padding-left: 16%;
+}
+
+/*Estilização do menu*/
+nav{
+    margin: 0;
+    right: 16%;
+    position: absolute;
+    top: 35%;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.logo_caixa{
+    width: 100%;
+    position: relative;
+}
+/*Estilização do Banner*/
+.banner{
+    width: 100%;
+}
+
+/*Estilização da sessão sobre a TreeBox*/
+.titulo-Tree{
+    clear: left;
+    text-align: center;
+    font-size: 2em;
+}
+
+.arvore{
+    width: 100px;
+    float: left;
+    margin: 0 20px;
+}
+
+.area-arvore{
+    width: 50%;
+    text-align: justify;
+    margin: auto;
+    background-color: #fffffe;
+}
+
+.titulo-padrao{
+    margin: 0;
+    padding-top: 5%;
+    text-align: center;
+    font-size: 2em;
+}
+
+/*Estilização da sessão Nosso Estabelecimento (mapa)*/
+.mapa{
+    background: linear-gradient(#fffffe, pink);
+}
+
+.mapa p{
+    text-align: center;
+}
+
+.mapa iframe{
+    display: block;
+    margin: auto;
+}
+
+/*Estilização da sessão Beneficios*/
+.beneficios{
+    background-color: pink;
+}
+
+.conteudo-beneficio{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.lista-beneficios{
+    width: 22%;
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+    padding-left: 35%;
+    padding-top: 0.6%;
+}
+
+.itens{
+    line-height: 1.5;
+}
+
+.itens:before{
+    content: "🌸";
+}
+
+.itens:first-child{
+    font-weight: bold;
+}
+
+.img_beneficios{
+    width: 100px;
+    display: inline-block;
+    box-shadow: 10px 10px 5px 0px black;
+    opacity: 1;
+    transition: 400ms;
+}
+
+.img_beneficios:hover{
+    opacity: 0.7;
+}
+
+.video{
+    padding-top: 3%;
+    text-align: center;
+}
+
+/*Estilização do Footer*/
+.footer{
+    text-align: center;
+    padding: 10px 0px 5px 0px;
+    background-color: rgb(141, 141, 141);
+    margin: 0;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 0;
+}
+
+.logo_footer{
+    width: 10%;
+}
