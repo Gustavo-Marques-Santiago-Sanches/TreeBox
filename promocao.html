@@ -1,0 +1,24 @@
+<html >
+    <head>
+        <title>Document</title>
+        <script>
+            function pisca(){
+                var f = document.getElementById('preco_promocao');
+                setInterval(function(){
+                    f.style.visibility = (f.style.visibility == 'hidden' ? '' : 'hidden');
+                }, 150);
+            }
+        </script>
+    </head>
+    <body onload="pisca();">
+        <div class = "promocao">
+            <img src="" >
+            <p>
+                QUINTA-FEIRA MALUCA!!!<br>
+                Pizza de Mussarela por apenas:
+            </p>
+            <p class="preco_promocao">R$ 39,90</p>
+        </div>
+        
+    </body>
+</html>
