@@ -3,9 +3,19 @@
         <title>TreeBox</title>
         <link rel="stylesheet" href="assets/css/casa.css">
         <link rel="shortcut icon" href="assets/imagens/Logo3_Arvore.png">
+        <script>
+            var win = null;
+            function PopPromocao(){
+                pagina = "promocao.html"
+                var left = (window.innerWidth-400)/2;
+                var top = (window.innerHeight-300)/2; 
+                settings = 'toolbar=no, location=no,directories=no,status=no,menubar=no,width=400,height=280,left='+left+',top='+top+',scrollbars=no,resizable=no,copyhistory=yes';
+                win = window.open(pagina,"SEMANA BLACK TreeBox!", settings);
+            }
+        </script>
     </head>
 
-    <body>
+    <body onLoad="JavaScript:PopPromocao();">
         <header>
             <div class="logo_caixa">
                 <img src="assets/imagens/Logo3-removebg-preview.png" title="TreeBox" class="logo">
