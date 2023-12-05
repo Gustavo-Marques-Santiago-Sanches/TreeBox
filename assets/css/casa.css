@@ -119,12 +119,45 @@ h2{
     font-size: 26px;
 }
 
+.nov{
+    border: 2px solid rgb(255, 144, 162);
+    border-radius: 7%;
+    width: 5.1%;
+    padding: 1.5px;
+    margin-left: 90%;
+    color: black;
+    text-decoration: none;
+}
+
+.nov:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*Estilizacão da pagina Novidade*/
+i{
+    text-align: center;
+}
+
+.super_casa{
+    width: 65%;
+    padding-left: 17%;
+    padding-right: 0%;
+    padding: 1% 0% 1% 17%;
+}
+
+.slider{
+    width: 65.5%;
+    margin-left: 16.5%;
+    margin-bottom: 1%;
+}
+
 /*Estilização do Footer*/
 .footer{
     text-align: center;
     padding: 10px 0px 5px 0px;
     background-color: rgb(141, 141, 141);
-    margin: 0;
+    margin-top: 2%;
 }
 
 .copyright{

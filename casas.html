@@ -9,8 +9,16 @@
                 pagina = "promocao.html"
                 var left = (window.innerWidth-400)/2;
                 var top = (window.innerHeight-300)/2; 
-                settings = 'toolbar=no, location=no,directories=no,status=no,menubar=no,width=400,height=280,left='+left+',top='+top+',scrollbars=no,resizable=no,copyhistory=yes';
+                settings = 'toolbar=no, location=no,directories=no,status=no,menubar=no,width=400,height=340,left='+left+',top='+top+',scrollbars=no,resizable=no,copyhistory=yes';
                 win = window.open(pagina,"SEMANA BLACK TreeBox!", settings);
+            }
+
+            function Novidade(){
+                pagina = "novidade.html"
+                var left = (window.innerWidth-820)/2;
+                var top = (window.innerHeight-680)/2;
+                settings = 'toolbar=no, location=no,directories=no,status=no,menubar=no,width=820,height=680,left='+left+',top='+top+',scrollbars=no,resizable=no,copyhistory=yes'; 
+                win = window.open(pagina,"NOVIDADE", settings);
             }
         </script>
     </head>
@@ -62,6 +70,9 @@
                             <li class="Carac">Perfeita para as crianças</li>
                         </ul>
                         <p class="price">R$42/dia</p>
+                    </div>
+                    <div>
+                        <a href="JavaScript:Novidade();" class="nov">NOVIDADE!</a>
                     </div>
                 </div>
             </section>    
